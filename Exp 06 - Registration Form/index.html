@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(#242460,#38cdcd);
+        }
+
+        .form-container{
+            height: 70vh;
+            width: 40vw;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            flex-direction: column;
+            border-radius: 1%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="get">
+            <div class="form-container">
+                <div class="form-field">
+                    <label for="name">Name </label>
+                    <input type="text" name="name" id="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-field">
+                    <label for="software">Software </label>
+                    <select name="software" id="software" required>
+                        <option value="None">None</option>
+                        <option value="Virtual Studio Code Editor">Virtual Studio Code Editor</option>
+                        <option value="Google Chrome">Google Chrome</option>
+                        <option value="MATLAB">MATLAB</option>
+                        <option value="Star UML">Star UML</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <label for="problem">Problem</label>
+                    <textarea name="" id=""></textarea>
+                </div>
+                <div class="form-field">
+                    <input type="submit" name="submit" id="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
