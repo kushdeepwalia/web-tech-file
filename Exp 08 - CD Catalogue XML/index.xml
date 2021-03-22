@@ -1,0 +1,47 @@
+<cd>
+    <album>
+        <name>Changes</name>
+        <artist>Justin Bieber</artist>
+        <songs>
+            <song>
+                <name>All Around Me</name>
+                <duration>2.17 min</duration>
+                <release_year> 2020 </release_year>
+
+            </song>
+            
+            <song>
+                <name>Intentions</name>
+                <duration>3.19 min</duration>
+                <release_year> 2020 </release_year>
+            </song>
+
+        </songs>
+    </album>
+
+    <album>
+        <name>World War Joy</name>
+        <artist>The Chainsmokers</artist>
+        <songs>
+            <song>
+                <name>Takeaway</name>
+                <duration>3.35 min</duration>
+                <release_year> 2019 </release_year>
+
+            </song>
+            
+            <song>
+                <name>See The Way</name>
+                <duration>3.19 min</duration>
+                <release_year> 2019 </release_year>
+            </song>
+
+            <song>
+                <name>Family</name>
+                <duration>3.38 min</duration>
+                <release_year> 2019 </release_year>
+            </song>
+        </songs>
+    </album>
+    
+</cd>

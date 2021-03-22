@@ -1,0 +1,31 @@
+<foodmenu>
+    <dish>
+        <type>Fast Food</type>
+        <name>Pizza</name>
+        <desc>Lorem Ipsum</desc>
+        <price>12$</price>
+    </dish>
+    
+    
+    <dish>
+        <type>Fast Food</type>
+        <name>Burger</name>
+        <desc>Lorem Ipsum</desc>
+        <price>$19</price>
+    </dish>
+    
+    
+    <dish>
+        <type>Fast Food</type>
+        <name>Sandwitch</name>
+        <desc>Lorem Ipsum</desc>
+        <price>$20</price>
+    </dish>
+    
+    <drinks>
+        <type>Bevarage</type>
+        <name>Coke</name>
+        <desc>Lorem Ipsum</desc>
+        <price>$20</price>
+    </drinks>
+</foodmenu>
