@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding Largest and Smallest</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .sub-container{
+            border: 2px solid black;
+            height: 75vh;
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .field{
+            margin: 0 auto;
+            padding-top: 10px;
+            height: 10%;
+            display: flex;
+            width: 300px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .head{
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+            padding-top: 20px;
+        }
+        .field label{
+            font-size: 20px;
+        }
+        .field input[type=number]{
+            border: none;
+            cursor: pointer;
+            border-bottom: 1px solid black;
+            background-color: transparent;
+            outline: none;
+        }
+        .result{
+            height: 30%;
+            width: 25%;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .smallest{
+            margin-top: 10px;
+        }
+        #submit{
+            outline: none;
+            cursor: pointer;
+            width: 100px;
+            height: 40px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <div class="head">Enter 10 Numbers to Calculate Find Largest and Smallest</div>
+            <div class="field"><label for="num1">Number 1</label>:<input type="number" name="num1" class="num" value="0"></div>
+            <div class="field"><label for="num2">Number 2</label>:<input type="number" name="num2" class="num" value="0"></div>
+            <div class="field"><label for="num3">Number 3</label>:<input type="number" name="num3" class="num" value="0"></div>
+            <div class="field"><label for="num4">Number 4</label>:<input type="number" name="num4" class="num" value="0"></div>
+            <div class="field"><label for="num5">Number 5</label>:<input type="number" name="num5" class="num" value="0"></div>
+            <div class="field"><label for="num6">Number 6</label>:<input type="number" name="num6" class="num" value="0"></div>
+            <div class="field"><label for="num7">Number 7</label>:<input type="number" name="num7" class="num" value="0"></div>
+            <div class="field"><label for="num8">Number 8</label>:<input type="number" name="num8" class="num" value="0"></div>
+            <div class="field"><label for="num9">Number 9</label>:<input type="number" name="num9" class="num" value="0"></div>
+            <div class="field"><label for="num10">Number 10</label>:<input type="number" name="num10" class="num" value="0"></div>
+            <div class="field"><input type="submit" value="Submit" id="submit"></div>
+        </div>
+        <div class="result">
+            <div class="largest">Largest Number&nbsp; : <span id="largest">0</span></div>
+            <div class="smallest">Smallest Number : <span id="smallest">0</span></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
